@@ -1,5 +1,5 @@
 /**
- * _print_rev_recursion - Prints the string in reverse.
+ * _print_rev_recursion - Prints a string in reverse.
  * @s: The string to be printed.
  */
 void _print_rev_recursion(char *s)
@@ -10,4 +10,3 @@ void _print_rev_recursion(char *s)
 		_putchar(*s);
 	}
 }
-
