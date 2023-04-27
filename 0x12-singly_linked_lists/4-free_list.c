@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * listFree - Frees a list_t list.
+ * free_list - Frees a list_t list.
  * @head: A pointer to the list_t list.
  */
-void listFree(list_t *head)
+void free_list(list_t *head)
 {
 	list_t *tmp;
 
